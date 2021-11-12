@@ -10,8 +10,9 @@
 
 body {
     background: rgb(34,94,195);
-    background: linear-gradient(0deg, rgba(34,94,195,1) 5%, rgba(45,234,253,1) 100%);
+    /* background-color: linear-gradient(0deg, rgba(34,94,195,1) 5%, rgba(45,234,253,1) 100%); */
 }
+
 
 .resume{
 	width: 800px;
