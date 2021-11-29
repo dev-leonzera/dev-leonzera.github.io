@@ -8,8 +8,6 @@ img {
   max-width: 100%;
 }
 
-
-
 li {
   list-style: none;
 }
@@ -126,6 +124,14 @@ body {
   margin-top: 50vh;
   padding-bottom: 50vh;
   text-align: center;
+}
+
+.img-projeto{
+  margin: 20px auto;
+}
+
+.texto{
+
 }
 
 @media (max-width: 600px) {
