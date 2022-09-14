@@ -89,6 +89,34 @@ body {
   color: #606060;
 }
 
+.portfolio-content {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.portfolio-content img{
+  width: 260px;
+  height: 150px;
+}
+
+.portfolio-experience{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.toolbox-list{
+  display: flex;
+}
+
+.toolbox{
+  padding: 5px;
+  border: 1px solid black;
+}
+
 #tech-list li{
   display: grid;
   grid-template-columns: 1fr 1fr;
