@@ -103,21 +103,34 @@ body {
 
 .portfolio-experience{
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  justify-content: center;
-  margin-top: 40px;
+  justify-content: center;  
+  padding: 20px;
 }
 
-.toolbox-list{
+.portfolio-experience-item{
+  
+}
+
+.portfolio-toolbox{
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;  
+  padding: 20px;
 }
 
-.toolbox{
-  padding: 5px;
-  border: 1px solid black;
+#toolbox-list{
+  display: flex;
+  justify-content: center;
 }
 
-#tech-list li{
+.portfolio-toolbox #toolbox-list ul{
+  margin-top: 1rem;
+}
+
+#toolbox-list li, #tech-list li{
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: left;
