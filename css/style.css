@@ -63,7 +63,8 @@ body {
   margin-bottom: 4rem;
 }
 
-.redes-sociais, #tech-list {
+.redes-sociais,
+#tech-list {
   display: flex;
   justify-content: center;
 }
@@ -89,6 +90,11 @@ body {
   color: #606060;
 }
 
+.portfolio-about p, .portfolio-experience-item p, .contato p{
+  text-align: justify;
+  line-height: 2.0;
+}
+
 .portfolio-content {
   display: flex;
   gap: 10px;
@@ -96,41 +102,47 @@ body {
   margin-top: 40px;
 }
 
-.portfolio-content img{
+.portfolio-content img {
   width: 260px;
   height: 150px;
 }
 
-.portfolio-experience{
+.portfolio-experience {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  justify-content: center;  
+  justify-content: center;
   padding: 20px;
 }
 
-.portfolio-experience-item{
-  
-}
+.portfolio-experience-item {}
 
-.portfolio-toolbox{
+.portfolio-toolbox {
   display: flex;
-  flex-direction: column;
   gap: 10px;
-  justify-content: center;  
+  justify-content: center;
   padding: 20px;
 }
 
-#toolbox-list{
+.portfolio-toolbox-list {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+#toolbox-list {
   display: flex;
   justify-content: center;
 }
 
-.portfolio-toolbox #toolbox-list ul{
+.portfolio-toolbox #toolbox-list ul {
   margin-top: 1rem;
 }
 
-#toolbox-list li, #tech-list li{
+#toolbox-list li,
+#tech-list li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: left;
@@ -139,13 +151,13 @@ body {
   margin-top: 0;
 }
 
-.contato{
+.contato {
   max-width: 886px;
   box-sizing: border-box;
   margin: 80px auto;
 }
 
-.portfolio li + li {
+.portfolio li+li {
   margin-top: 2rem;
 }
 
@@ -160,20 +172,18 @@ body {
 
 .copyright {
   font-size: 24px;
-  color: white;
+  color: aliceblue;
   text-shadow: 2px 2px 16px black;
   margin-top: 50vh;
   padding-bottom: 50vh;
   text-align: center;
 }
 
-.img-projeto{
+/* .img-projeto{
   margin: 20px auto;
-}
+} */
 
-.texto{
-
-}
+.texto {}
 
 @media (max-width: 600px) {
   body {
@@ -181,24 +191,30 @@ body {
     background-size: contain;
     background-color: #f0e6da;
   }
+
   .box {
     padding: 2rem;
     margin-top: 4rem;
     border-radius: 30px;
   }
+
   .box:first-child {
     padding: 3rem;
   }
+
   .portfolio ul {
     margin-top: 1rem;
   }
+
   .portfolio li {
     grid-template-columns: 1fr;
     justify-items: center;
   }
+
   .portfolio li div {
     max-width: 448px;
   }
+
   .copyright {
     font-size: 18px;
     color: #606060;
